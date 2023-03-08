@@ -260,6 +260,14 @@ data["janja"] = dict(
     order=28,
 )
 
+data["shai"] = dict(
+    letter=["ϣ"],
+    name="ϣ",
+    segment="consonant",
+    subsegment="",
+    transliteration="š",
+    order=29,
+)
 r = romanizer(data, has_capitals)
 
 # collect coptic and transliteration letters from data dictionary for preprocessing function
