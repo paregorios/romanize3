@@ -14,70 +14,272 @@ data = OrderedDict()
 
 # letters from ⲁ to ⲑ (1 - 9)
 # alef:http://en.wiktionary.org/wiki/
-data['alpha'] = dict(letter=[u'ⲁ'], name=u'ⲁ', segment='vowel', subsegment='', transliteration=u'a', order=1)
+data["alpha"] = dict(
+    letter=["ⲁ"], name="ⲁ", segment="vowel", subsegment="", transliteration="a", order=1
+)
 # beth:http://en.wiktionary.org/wiki/
-data['beth'] = dict(letter=[u'ⲃ'], name=u'ⲃ', segment='consonant', subsegment='', transliteration=u'b', order=2)
+data["beth"] = dict(
+    letter=["ⲃ"],
+    name="ⲃ",
+    segment="consonant",
+    subsegment="",
+    transliteration="b",
+    order=2,
+)
 # gimel:http://en.wiktionary.org/wiki/
-data['gamma'] = dict(letter=[u'ⲅ'], name=u'ⲅ', segment='consonant', subsegment='', transliteration=u'g', order=3)
+data["gamma"] = dict(
+    letter=["ⲅ"],
+    name="ⲅ",
+    segment="consonant",
+    subsegment="",
+    transliteration="g",
+    order=3,
+)
 # daleth:http://en.wiktionary.org/wiki/
-data['delta'] = dict(letter=[u'ⲇ'], name=u'ⲇ', segment='consonant', subsegment='', transliteration=u'd', order=4)
+data["delta"] = dict(
+    letter=["ⲇ"],
+    name="ⲇ",
+    segment="consonant",
+    subsegment="",
+    transliteration="d",
+    order=4,
+)
 # he:http://en.wiktionary.org/wiki/
-data['ei'] = dict(letter=[u'ⲉ'], name=u'ⲉי', segment='vowel', subsegment='', transliteration=u'e', order=5)
+data["ei"] = dict(
+    letter=["ⲉ"],
+    name="ⲉי",
+    segment="vowel",
+    subsegment="",
+    transliteration="e",
+    order=5,
+)
 # vau:http://en.wikipedia.org/wiki/
-data['so'] = dict(letter=[u'ⲋ'], name=u'ⲋ', segment='numeral', subsegment='', transliteration=u'w', order=6)
+data["so"] = dict(
+    letter=["ⲋ"],
+    name="ⲋ",
+    segment="numeral",
+    subsegment="",
+    transliteration="w",
+    order=6,
+)
 # zayin:http://en.wiktionary.org/wiki/
-data['zeta'] = dict(letter=[u'ⲍ'], name=u'ⲍ', segment='consonant', subsegment='', transliteration=u'z', order=7)
+data["zeta"] = dict(
+    letter=["ⲍ"],
+    name="ⲍ",
+    segment="consonant",
+    subsegment="",
+    transliteration="z",
+    order=7,
+)
 # heth:http://en.wiktionary.org/wiki/
-data['eta'] = dict(letter=[u'ⲏ'], name=u'ⲏ', segment='vowel', subsegment='', transliteration=u'ê', order=8)
+data["eta"] = dict(
+    letter=["ⲏ"], name="ⲏ", segment="vowel", subsegment="", transliteration="ê", order=8
+)
 # teth:http://en.wiktionary.org/wiki/
-data['theta'] = dict(letter=[u'ⲑ'], name=u'ⲑ', segment='consonant', subsegment='', transliteration=u'h', order=9)
+data["theta"] = dict(
+    letter=["ⲑ"],
+    name="ⲑ",
+    segment="consonant",
+    subsegment="",
+    transliteration="h",
+    order=9,
+)
 
 # letters from י to ϥ (10 - 90)
 # yod:http://en.wiktionary.org/wiki/
-data['yota'] = dict(letter=[u'ⲓ'], name=u'ⲓ', segment='vowel', subsegment='', transliteration=u'i', order=10)
+data["yota"] = dict(
+    letter=["ⲓ"],
+    name="ⲓ",
+    segment="vowel",
+    subsegment="",
+    transliteration="i",
+    order=10,
+)
 # kaph:http://en.wiktionary.org/wiki/
-data['kappa'] = dict(letter=[u'ⲕ'], name=u'ⲕ', segment='consonant', subsegment='', transliteration=u'k', order=11)
+data["kappa"] = dict(
+    letter=["ⲕ"],
+    name="ⲕ",
+    segment="consonant",
+    subsegment="",
+    transliteration="k",
+    order=11,
+)
 # lamed:http://en.wiktionary.org/wiki/
-data['lambda'] = dict(letter=[u'ⲗ'], name=u'ⲗ', segment='consonant', subsegment='', transliteration=u'l', order=12)
+data["lambda"] = dict(
+    letter=["ⲗ"],
+    name="ⲗ",
+    segment="consonant",
+    subsegment="",
+    transliteration="l",
+    order=12,
+)
 # mem:http://en.wiktionary.org/wiki/
-data['me'] = dict(letter=[u'ⲙ'], name=u'ⲙ', segment='consonant', subsegment='', transliteration=u'm', order=13)
+data["me"] = dict(
+    letter=["ⲙ"],
+    name="ⲙ",
+    segment="consonant",
+    subsegment="",
+    transliteration="m",
+    order=13,
+)
 # num:http://en.wiktionary.org/wiki/
-data['ne'] = dict(letter=[u'ⲛ'], name=u'ⲛ', segment='consonant', subsegment='', transliteration=u'n', order=14)
+data["ne"] = dict(
+    letter=["ⲛ"],
+    name="ⲛ",
+    segment="consonant",
+    subsegment="",
+    transliteration="n",
+    order=14,
+)
 # samekh:http://en.wiktionary.org/wiki/
-data['eksi'] = dict(letter=[u'ⲝ'], name=u'ⲝ', segment='consonant', subsegment='', transliteration=u'x', order=15)
+data["eksi"] = dict(
+    letter=["ⲝ"],
+    name="ⲝ",
+    segment="consonant",
+    subsegment="",
+    transliteration="x",
+    order=15,
+)
 # ayin:http://en.wiktionary.org/wiki/
-data['o'] = dict(letter=[u'ⲟ'], name=u'ⲟ', segment='consonant', subsegment='', transliteration=u'o', order=16)
+data["o"] = dict(
+    letter=["ⲟ"],
+    name="ⲟ",
+    segment="consonant",
+    subsegment="",
+    transliteration="o",
+    order=16,
+)
 # pe:http://en.wiktionary.org/wiki/
-data['pi'] = dict(letter=[u'ⲡ'], name=u'ⲡ', segment='consonant', subsegment='', transliteration=u'p', order=17)
+data["pi"] = dict(
+    letter=["ⲡ"],
+    name="ⲡ",
+    segment="consonant",
+    subsegment="",
+    transliteration="p",
+    order=17,
+)
 # tsade:http://en.wikipedia.org/wiki/
-data['fay'] = dict(letter=[u'ϥ'], name=u'ϥ', segment='numeral', subsegment='', transliteration=u'q', order=18)
+data["fay"] = dict(
+    letter=["ϥ"],
+    name="ϥ",
+    segment="numeral",
+    subsegment="",
+    transliteration="q",
+    order=18,
+)
 
 # letters from ⲣ to ⳁ (100 - 900)
 # resh:http://en.wiktionary.org/wiki/
-data['ro'] = dict(letter=[u'ⲣ'], name=u'ⲣ', segment='consonant', subsegment='', transliteration=u'r', order=19)
+data["ro"] = dict(
+    letter=["ⲣ"],
+    name="ⲣ",
+    segment="consonant",
+    subsegment="",
+    transliteration="r",
+    order=19,
+)
 # shin:http://en.wiktionary.org/wiki/
-data['sima'] = dict(letter=[u'ⲥ'], name=u'ⲥ', segment='consonant', subsegment='', transliteration=u's', order=20)
+data["sima"] = dict(
+    letter=["ⲥ"],
+    name="ⲥ",
+    segment="consonant",
+    subsegment="",
+    transliteration="s",
+    order=20,
+)
 # tau:http://en.wiktionary.org/wiki/
-data['taw'] = dict(letter=[u'ⲧ'], name=u'ⲧו', segment='consonant', subsegment='', transliteration=u't', order=21)
+data["taw"] = dict(
+    letter=["ⲧ"],
+    name="ⲧו",
+    segment="consonant",
+    subsegment="",
+    transliteration="t",
+    order=21,
+)
 # final_tsade:http://en.wiktionary.org/wiki/Tsade
-data['epsilon'] = dict(letter=[u'ⲩ'], name=u'ⲩ', segment='vowel', subsegment='', transliteration=u'u', order=22)
+data["epsilon"] = dict(
+    letter=["ⲩ"],
+    name="ⲩ",
+    segment="vowel",
+    subsegment="",
+    transliteration="u",
+    order=22,
+)
 # final_kaph:http://en.wiktionary.org/wiki/
-data['fi'] = dict(letter=[u'ⲫ'], name=u'ⲫ', segment='consonant', subsegment='', transliteration=u'f', order=23)
+data["fi"] = dict(
+    letter=["ⲫ"],
+    name="ⲫ",
+    segment="consonant",
+    subsegment="",
+    transliteration="f",
+    order=23,
+)
 # final_mem, chi:http://en.wiktionⲣary.org/wiki/
-data['khe'] = dict(letter=[u'ⲭ'], name=u'ⲭ', segment='consonant', subsegment='', transliteration=u'c', order=24)
+data["khe"] = dict(
+    letter=["ⲭ"],
+    name="ⲭ",
+    segment="consonant",
+    subsegment="",
+    transliteration="c",
+    order=24,
+)
 # final_nun:http://en.wiktionary.org/wiki/
-data['epsi'] = dict(letter=[u'ⲯ'], name=u'ⲯ', segment='consonant', subsegment='', transliteration=u'y', order=25)
+data["epsi"] = dict(
+    letter=["ⲯ"],
+    name="ⲯ",
+    segment="consonant",
+    subsegment="",
+    transliteration="y",
+    order=25,
+)
 # final_pe:http://en.wiktionary.org/wiki/
-data['ou'] = dict(letter=[u'ⲱ'], name=u'ⲱ', segment='vowel', subsegment='', transliteration=u'ô', order=26)
+data["ou"] = dict(
+    letter=["ⲱ"],
+    name="ⲱ",
+    segment="vowel",
+    subsegment="",
+    transliteration="ô",
+    order=26,
+)
 # final_tsade:http://en.wiktionary.org/wiki/Tsade
-data['nine'] = dict(letter=[u'ⳁ'], name=u'ⳁ', segment='numeral', subsegment='', transliteration=u'j', order=27)
+data["nine"] = dict(
+    letter=["ⳁ"],
+    name="ⳁ",
+    segment="numeral",
+    subsegment="",
+    transliteration="j",
+    order=27,
+)
+
+data["janja"] = dict(
+    letter=["ϫ"],
+    name="ϫ",
+    segment="consonant",
+    subsegment="",
+    transliteration="č",
+    order=28,
+)
 
 r = romanizer(data, has_capitals)
 
 # collect coptic and transliteration letters from data dictionary for preprocessing function
-letters = ''.join([''.join(d['letter'])+d['transliteration']+''.join(d['letter']).upper()+d['transliteration'].upper() for key, d in data.items()])
-regex = re.compile('[^%s ]+' % letters)
-regex2 = re.compile('[^%s\s]' % ''.join([''.join(d['letter'])+''.join(d['letter']).upper() for key, d in data.items()]))
+letters = "".join(
+    [
+        "".join(d["letter"])
+        + d["transliteration"]
+        + "".join(d["letter"]).upper()
+        + d["transliteration"].upper()
+        for key, d in data.items()
+    ]
+)
+regex = re.compile("[^%s ]+" % letters)
+regex2 = re.compile(
+    "[^%s\s]"
+    % "".join(
+        ["".join(d["letter"]) + "".join(d["letter"]).upper() for key, d in data.items()]
+    )
+)
+
 
 def filter(string):
     """
@@ -87,7 +289,8 @@ def filter(string):
     :return:
     """
     # remove all unwanted characters
-    return regex2.sub(' ', string)
+    return regex2.sub(" ", string)
+
 
 def preprocess(string):
     """
@@ -96,7 +299,8 @@ def preprocess(string):
     :param string:
     :return:
     """
-    return regex.sub('', string)
+    return regex.sub("", string)
+
 
 def convert(string, sanitize=False):
     """
